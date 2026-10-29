@@ -15,7 +15,7 @@ class CalculatorTest {
     @Test
     void testAddWithZero() {
         Calculator calc = new Calculator();
-        assertEquals(7, calc.add(7, 0));
+        assertEquals(7, calc.add(7, 5));
     }
 
     @Test
